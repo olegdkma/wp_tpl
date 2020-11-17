@@ -1,0 +1,46 @@
+
+$color__dark_text: #333333;
+$color__dark_black: black;
+$open_sans: 'Open Sans', sans-serif;
+$lato: 'Lato', sans-serif;
+$main_text_color: black;
+$font__size: 12px;
+$font__family: sans-serif;
+
+.title{
+  font-size: 46px;
+  font-family: $open_sans;
+  font-weight: 700;
+  @media (max-width:574px){
+    font-size: 34px;
+  }
+  &_white{
+
+  }
+  &_gray{
+
+  }
+  &_dark{
+
+  }
+  &_blue{
+
+  }
+  &_bold{
+    font-weight: 900;
+  }
+  &_strong{
+    font-weight: 700;
+  }
+  &_book{
+    font-weight: 500;
+  }
+}
+
+.subtitle{
+  font-size: 24px;
+  @media (max-width:574px){
+    font-size: 19px;
+  }
+}
+
